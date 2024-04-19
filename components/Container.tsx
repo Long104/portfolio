@@ -1,7 +1,7 @@
 import React, { ReactNode } from "react";
 
 type children = {
-  Children: React.ReactNode;
+  children: React.ReactNode;
 };
 function Container({ children }: children) {
   return (

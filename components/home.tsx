@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import Free from "../public/free.gif";
 import Image from "next/image";
 import FreeCool from "../public/FreeCool.gif";
 import Container from "./Container";
@@ -28,6 +27,8 @@ function Home() {
           width={500}
           height={600}
           className="rounded-full"
+          unoptimized={true}
+          loading="eager"
         />
       </div>
     </Container>
