@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import FreeCool from "../public/FreeCool.gif";
+import FreeCool from "../public/freeCool.gif";
 import Container from "./Container";
 
 function Home() {
