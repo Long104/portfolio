@@ -38,6 +38,8 @@ export type DockProps = {
 export type DockItemProps = {
 	className?: string;
 	children: React.ReactNode;
+	width?: number; // or whatever type width should be
+	// isHovered?: boolean;
 };
 
 export type DockLabelProps = {
@@ -164,7 +166,13 @@ function DockItem({ children, className }: DockItemProps) {
 			aria-haspopup="true"
 		>
 			{Children.map(children, (child) =>
-				cloneElement(child as React.ReactElement, { width, isHovered }),
+				cloneElement(
+					child as React.ReactElement<DockItemProps>,
+					{
+						width,
+						isHovered,
+					} as any,
+				),
 			)}
 		</motion.div>
 	);
