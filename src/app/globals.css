@@ -3,31 +3,23 @@
 @tailwind utilities;
 
 * {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
-/* :root { */
-/*   --background: #ffffff; */
-/*   --foreground: #171717; */
-/* } */
-/**/
-/* @media (prefers-color-scheme: dark) { */
-/*   :root { */
-/*     --background: #0a0a0a; */
-/*     --foreground: #ededed; */
-/*   } */
-/* } */
-/**/
-/* body { */
-/*   color: var(--foreground); */
-/*   background: var(--background); */
-/*   font-family: Arial, Helvetica, sans-serif; */
-/* } */
 @layer base {
   :root {
     --background: 240 13% 14%;
     /* --foreground: 46 11% 61%; */
+
+    /* TODO: use this */
     --foreground: 51 33% 80%;
+
+    /* --foreground: 53 4% 43%; */
+
+    /* TODO: thinking this not bad too */
+    /* --foreground: 46 11% 61%; */
+
+    /* --foreground: 51 33% 68%; */
 
     --card: 0 0% 100%;
     --card-foreground: 0 0% 3.9%;
@@ -44,7 +36,10 @@
     --secondary: 240 13% 24%;
     /* --secondary: 240 13% 19%; */
 
-    --secondary-foreground: 0 0% 9%;
+    /* --secondary-foreground: 0 0% 9%; */
+    /* --secondary-foreground: 240 14% 10%; */
+    --secondary-foreground: 240 13% 19%;
+
     --muted: 0 0% 96.1%;
     --muted-foreground: 0 0% 45.1%;
     --accent: 0 0% 96.1%;
