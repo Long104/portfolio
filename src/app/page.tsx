@@ -1,8 +1,8 @@
 "use client";
-import HomePage from "@components/home";
-import About from "@components/about";
-import Project from "@components/project";
-import More from "@components/more";
+import HomePage from "@/components/page/home";
+import About from "@/components/page/about";
+import Project from "@/components/page/project";
+import More from "@/components/page/more";
 import { Clock } from "@/components/ui/clock";
 
 export default function Home() {

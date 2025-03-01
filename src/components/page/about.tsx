@@ -42,12 +42,12 @@ const about = () => {
 
 			{/* 1 row */}
 			<div className=" grid grid-cols-2 gap-x-8 place-items-center mt-8 w-full rounded-md font-bold ">
-				<div className="h-48 p-4 flex items-center text-center gap-2 w-full bg-secondary-foreground text-lg rounded-md">
-					Hi, my name first name pantorn but you can call me Long. I'm a
-					passionate software developer specializing in web technologies. I
-					create innovative applications that improve user experiences
+				<div className="h-48 p-4 w-full bg-secondary-foreground text-lg rounded-md">
+					Hi, my first name pantorn but you can call me Long. I'm a passionate
+					software developer specializing in web technologies. I create
+					innovative applications that improve user experiences
 				</div>
-				<div className="p-4 h-48 flex items-center text-center gap-2 w-full bg-secondary-foreground rounded-md text-lg">
+				<div className="p-4 h-48 w-full bg-secondary-foreground rounded-md text-lg">
 					With over 2 years of coding in frontend and 1 years of experience in
 					backend development using Go, Node.js, and modern frameworks, I have
 					successfully built many side project and do many workshop as a

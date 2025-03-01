@@ -1,7 +1,19 @@
+import { image } from "motion/react-client";
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
 	/* config options here */
+	images: {
+		remotePatterns: [
+			{
+				protocol: "https",
+				hostname: "i.imgur.com",
+				port: "",
+				pathname: "/*",
+				search: "",
+			},
+		],
+	},
 	eslint: {
 		// Warning: This allows production builds to successfully complete even if
 		// your project has ESLint errors.
