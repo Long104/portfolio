@@ -39,22 +39,22 @@ const data = [
 		href: "#project",
 		id: "project",
 	},
-	{
-		title: "More",
-		icon: (
-			<Mail className="h-full w-full text-neutral-600 dark:text-neutral-300" />
-		),
-		href: "#more",
-		id: "More",
-	},
-	{
-		title: "Theme",
-		icon: (
-			<SunMoon className="h-full w-full text-neutral-600 dark:text-neutral-300" />
-		),
-		href: "#",
-		id: "",
-	},
+	// {
+	// 	title: "More",
+	// 	icon: (
+	// 		<Mail className="h-full w-full text-neutral-600 dark:text-neutral-300" />
+	// 	),
+	// 	href: "#more",
+	// 	id: "More",
+	// },
+	// {
+	// 	title: "Theme",
+	// 	icon: (
+	// 		<SunMoon className="h-full w-full text-neutral-600 dark:text-neutral-300" />
+	// 	),
+	// 	href: "#",
+	// 	id: "",
+	// },
 ];
 
 const geistSans = Geist({
