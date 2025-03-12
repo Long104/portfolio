@@ -11,9 +11,11 @@ export default function Home() {
 			<div className="fixed top-12 left-0 right-0 w-[90vw] z-10 flex justify-end justify-self-center p-3 px-6">
 				<Clock />
 			</div>
-			<HomePage />
-			<About />
-			<Project />
+			<div className="flex flex-col items-center">
+				<HomePage />
+				<About />
+				<Project />
+			</div>
 			{/* <More /> */}
 		</div>
 	);

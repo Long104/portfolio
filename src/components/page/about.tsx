@@ -6,12 +6,11 @@ import { ContactInformation } from "@components/ui/contactInformation";
 const about = () => {
 	return (
 		<div
-			// className="relative flex flex-col items-start w-[90svw] justify-self-center"
-			className="relative flex flex-col items-center w-full max-w-[90svw] mx-auto"
+			className="relative flex flex-col items-start w-[90svw]"
 			id="about"
 			// id="about"
 		>
-			<div className="bg-secondary  sticky top-12 p-3 px-6 rounded-md text-2xl font-bold mt-8 drop-shadow-xl">
+			<div className="bg-secondary sticky top-12 p-3 px-6 rounded-md text-2xl font-bold mt-8 drop-shadow-xl z-50">
 				About me
 			</div>
 			{/* 1 row */}
