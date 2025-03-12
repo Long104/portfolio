@@ -5,7 +5,7 @@ import { motion } from "motion/react";
 const home = () => {
 	return (
 		<motion.div
-			className="relative h-screen w-screen"
+			className="relative h-svh w-svw"
 			id="home"
 			initial={{ opacity: 0 }}
 			animate={{ opacity: 1 }}
