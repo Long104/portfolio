@@ -9,26 +9,37 @@ const about = () => {
 			className="relative flex flex-col items-start w-[90vw] justify-self-center"
 			id="about"
 		>
-			<div className="bg-secondary sticky top-12 p-3 px-6 rounded-md text-2xl font-bold mt-8 drop-shadow-xl">
+			<div className="bg-secondary  sticky top-12 p-3 px-6 rounded-md text-2xl font-bold mt-8 drop-shadow-xl">
 				About me
 			</div>
 			{/* 1 row */}
-			<div className="grid h-36 grid-cols-[max-content_max-content_max-content_max-content_1fr] gap-x-1 place-items-center bg-secondary-foreground mt-6 w-full rounded-md font-bold">
-				<div className="px-4 flex items-center justify-center gap-2 w-full text-3xl">
+			<div className="bg-secondary-foreground h-36 grid lg:grid-cols-[max-content_max-content_max-content_max-content_1fr] gap-x-1 place-items-center mt-6 w-full rounded-md font-bold">
+				<div className=" bg-secondary-foreground px-4 flex items-center justify-center gap-2 w-full text-3xl">
 					<CircleUserRound size={64} />
 					<div>Pantorn Chuavallee</div>
 				</div>
-				<div className="bg-background h-24 p-1 rounded-md"></div>
-				<div className="px-4 flex items-center justify-center gap-2 w-full">
+				<div className="hidden bg-background h-24 p-1 rounded-md lg:block"></div>
+				<div className="hidden px-4 lg:flex items-center justify-center gap-2 w-full">
 					<Calendar size={32} />
 					<div className="text-2xl">
 						November 8<sup>th</sup>, 2003
 					</div>
 				</div>
-				<div className="bg-background h-24 p-1 rounded-md"></div>
-				<div className="px-4 flex items-center justify-start gap-4 w-full [&_svg]:h-12">
+				<div className="bg-background h-24 p-1 rounded-md hidden lg:flex"></div>
+				<div className="hidden px-4 lg:flex lg:flex-wrap items-center justify-start gap-4 w-full [&_svg]:h-12">
 					<ContactInformation />
 				</div>
+			</div>
+
+			<div className="lg:hidden h-36 bg-secondary-foreground px-4 mt-8 flex rounded-md items-center justify-center gap-2 w-full">
+				<Calendar size={32} />
+				<div className="text-2xl">
+					November 8<sup>th</sup>, 2003
+				</div>
+			</div>
+
+			<div className="bg-secondary-foreground lg:hidden mt-8 rounded-md p-4 flex flex-wrap items-center justify-center gap-4 w-full [&_svg]:h-12">
+				<ContactInformation />
 			</div>
 
 			<div className="grid place-items-center mt-8 w-full rounded-md font-bold ">

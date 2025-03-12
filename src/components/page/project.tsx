@@ -13,10 +13,7 @@ const project = () => {
 			<div className="bg-secondary sticky top-12 p-3 px-6 rounded-md text-2xl font-bold mt-8 drop-shadow-xl">
 				Project
 			</div>
-			{/* <div className=" mt-6 w-full rounded-md font-bold"> */}
-			{/* 	<InfiniteSliderHoverSpeed /> */}
-			{/* </div> */}
-			<div className="grid grid-cols-2 place-items-center w-full mt-8">
+			<div className="grid lg:grid-cols-2 grid-cols-1 place-items-center w-full mt-8">
 				<div>
 					<div className="text-4xl font-bold flex items-center">
 						notion-clone:
@@ -37,18 +34,18 @@ const project = () => {
 					</div>
 					A clone of notion with functionality like sharing document with friend
 					and using Ai for translation. The main technology here is clerk,
-					liveblock, blocknote, firebase, cloudflare for ai worker and deploying
-				</div>
+					liveblock, blocknote, firebase, cloudflare for ai worker and deploying{" "}
+				</div>{" "}
 				<Image
 					src="https://i.imgur.com/Nq9bWQ2.png"
 					alt="Jungle Jack - JUNGLE DES ILLUSIONS VOL 2"
-					className="rounded-2xl"
+					className="rounded-2xl mt-8 lg:mt-0"
 					width={500}
 					height={350}
 				/>
 			</div>
 
-			<div className="grid grid-cols-2 place-items-center w-full mt-8 pb-4">
+			<div className="grid lg:grid-cols-2 grid-cols-1 place-items-center w-full mt-8 pb-4">
 				<div>
 					<div className="text-4xl font-bold flex items-center">
 						senzen:
@@ -75,11 +72,14 @@ const project = () => {
 				<Image
 					src="https://i.imgur.com/M49vyaj.png"
 					alt="Jungle Jack - JUNGLE DES ILLUSIONS VOL 2"
-					className="rounded-2xl"
+					className="rounded-2xl mt-8 lg:m-0"
 					width={500}
 					height={350}
 				/>
 			</div>
+			{/* <div className=" m-6 w-full rounded-md font-bold"> */}
+			{/* 	<InfiniteSliderHoverSpeed /> */}
+			{/* </div> */}
 		</div>
 	);
 };
