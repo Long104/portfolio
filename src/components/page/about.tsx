@@ -50,7 +50,9 @@ const about = () => {
 					management website I currently using. Building website is my
 					specialty. In my free time, I enjoy playing chess and solving rubik
 					cubes. Lately, I’ve been explore about AI integration and optimizing
-					web apps for performance and scalability.
+					web apps for performance and scalability. What I am love doing right
+					now is config my terminal such as neovim and tmux for the
+					productivity.
 				</div>
 			</div>
 
