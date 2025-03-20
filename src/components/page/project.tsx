@@ -80,18 +80,11 @@ const project = () => {
 					<div className="text-4xl font-bold flex items-center">
 						clipboard-ai-extension:
 						<Link
-							href={"https://github.com/Long104/SenZen"}
+							href={"https://github.com/Long104/AI-Clipboard-extension"}
 							className="text-2xl bg-foreground text-background rounded-md px-1"
 							target="_blank"
 						>
 							github
-						</Link>
-						<Link
-							href={"https://senzen-frontend.vercel.app/"}
-							target="_blank"
-							className="text-2xl bg-foreground text-background rounded-md px-1 ml-1"
-						>
-							app
 						</Link>
 					</div>
 					Write your note and understand concept faster than ever with Clipboard
