@@ -9,8 +9,7 @@ const about = () => {
 			className="relative flex flex-col items-start w-[90svw]"
 			id="about"
 			// id="about"
-		>
-			<div className="bg-secondary sticky top-12 p-3 px-6 rounded-md text-2xl font-bold mt-8 drop-shadow-xl z-50">
+		> <div className="bg-secondary sticky top-12 p-3 px-6 rounded-md text-2xl font-bold mt-8 drop-shadow-xl z-50">
 				About me
 			</div>
 			{/* 1 row */}

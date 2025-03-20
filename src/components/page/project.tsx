@@ -74,6 +74,37 @@ const project = () => {
 					height={350}
 				/>
 			</div>
+
+			<div className="grid lg:grid-cols-2 grid-cols-1 place-items-center w-full mt-8 pb-4">
+				<div>
+					<div className="text-4xl font-bold flex items-center">
+						clipboard-ai-extension:
+						<Link
+							href={"https://github.com/Long104/SenZen"}
+							className="text-2xl bg-foreground text-background rounded-md px-1"
+							target="_blank"
+						>
+							github
+						</Link>
+						<Link
+							href={"https://senzen-frontend.vercel.app/"}
+							target="_blank"
+							className="text-2xl bg-foreground text-background rounded-md px-1 ml-1"
+						>
+							app
+						</Link>
+					</div>
+					Write your note and understand concept faster than ever with Clipboard
+					AI extension with the lastest model llama3.3 and chat side bar.
+				</div>
+				<Image
+					src="https://i.imgur.com/n0Xsxxz.png"
+					alt="ai extension"
+					className="rounded-2xl mt-8 lg:m-0"
+					width={500}
+					height={350}
+				/>
+			</div>
 			{/* <div className=" m-6 w-full rounded-md font-bold"> */}
 			{/* 	<InfiniteSliderHoverSpeed /> */}
 			{/* </div> */}
