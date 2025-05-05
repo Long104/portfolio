@@ -45,7 +45,7 @@ const about = () => {
 			<div className="grid place-items-center mt-8 w-full rounded-md font-bold ">
 				<div className="p-8 w-full bg-secondary-foreground text-lg rounded-md">
 					Hi, I am a software developer from Thailand. I like building stuff
-					that I want to use myself. One of my project call SenZen is a money
+					that I want to use myself. One of my project call CashWise is a money
 					management website I currently using. Building website is my
 					specialty. In my free time, I enjoy playing chess and solving rubik
 					cubes. Lately, I’ve been explore about AI integration and optimizing
