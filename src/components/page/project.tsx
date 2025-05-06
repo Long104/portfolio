@@ -29,10 +29,13 @@ const project = () => {
 							app
 						</Link>
 					</div>
-					A money management application made for anyone who want to keep track
-					of their spending. This application use Nextjs for frontend and go for
-					backend. In the future it will intregrated using AI for recommendation
-					of how to spend money more efficiency.
+					<div className="font-medium">
+						A <span className="text-[#FFA066]">money management</span>{" "}
+						application made for anyone who want to keep track of their
+						spending. This application use Nextjs for frontend and go for
+						backend. In the future it will intregrated using AI for
+						recommendation of how to spend money more efficiency.
+					</div>
 				</div>
 				<Image
 					src="https://i.imgur.com/M49vyaj.png"
@@ -54,8 +57,12 @@ const project = () => {
 							github
 						</Link>
 					</div>
-					Write your note and understand concept faster than ever with Clipboard
-					AI extension with the lastest model llama3.3 and chat side bar.
+					<div className="font-medium">
+						AI-powered <span className="text-[#FFA066]">Clipboard</span> using
+						Cloudflare Workers and integrates Clipboard AI, allowing users to
+						understand concepts faster than ever using a sidebar chat powered by
+						LLaMA 3.3, the latest large language model.
+					</div>
 				</div>
 				<Image
 					src="https://i.imgur.com/n0Xsxxz.png"
@@ -84,9 +91,22 @@ const project = () => {
 							app
 						</Link>
 					</div>
-					A clone of notion with functionality like sharing document with friend
-					and using Ai for translation. The main technology here is clerk,
-					liveblock, blocknote, firebase, cloudflare for ai worker and deploying{" "}
+					<div className="font-medium inline">
+						This project replicates core Notion functionality, allowing users to
+						share documents with friends and use AI to translate content. It
+						utilizes Clerk for authentication, Liveblocks for real-time
+						collaboration, Blocknote for the text editor, Firebase for backend
+						and storage, and Cloudflare Workers to run the AI translation. Video
+						credit: YouTube –{" "}
+					</div>
+					<span className="text-[#FFA066]">
+						<Link
+							href={"https://www.youtube.com/watch?v=cso7-4oAPNQ&t=16964s"}
+							target="_blank"
+						>
+							Build with Ben
+						</Link>
+					</span>
 				</div>{" "}
 				<Image
 					src="https://i.imgur.com/Nq9bWQ2.png"
