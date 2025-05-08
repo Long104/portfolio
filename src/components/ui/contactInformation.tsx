@@ -5,7 +5,7 @@ import { FileUser } from "lucide-react";
 export const ContactInformation = () => {
 	return (
 		<>
-			<Link href={"https://github.com/Long104"}>
+			<Link href={"https://github.com/Long104"} target="_blank">
 				<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 					<title>GitHub</title>
 					<path
@@ -16,6 +16,7 @@ export const ContactInformation = () => {
 			</Link>
 			<Link
 				href={`https://mail.google.com/mail/?view=cm&to=longpantorn@gmail.com&su=contact&body=hello`}
+				target="_blank"
 			>
 				<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 					<title>Gmail</title>
@@ -25,7 +26,10 @@ export const ContactInformation = () => {
 					/>
 				</svg>
 			</Link>
-			<Link href={"https://www.linkedin.com/in/pantorn-chuavallee-99a51a341/"}>
+			<Link
+				href={"https://www.linkedin.com/in/pantorn-chuavallee-99a51a341/"}
+				target="_blank"
+			>
 				<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 					<title>Linkedin</title>
 					<path
@@ -34,12 +38,41 @@ export const ContactInformation = () => {
 					/>
 				</svg>
 			</Link>
-			<Link href={"https://www.resume.pantorn.me"}>
-				<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-					<title>Linkedin</title>
+			{/* <Link href={"https://resume.pantorn.me"}> */}
+			{/* 	<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> */}
+			{/* 		<title>Resume</title> */}
+			{/* 		<path */}
+			{/* 			fill="#0077B5" */}
+			{/* 			d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" */}
+			{/* 		/> */}
+			{/* 	</svg> */}
+			{/* </Link> */}
+			<Link href={"https://resume.pantorn.me"} target="_blank">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					xmlSpace="preserve"
+					// width="655.359"
+					// height="655.359"
+					viewBox="0 0 6.827 6.827"
+					style={{
+						shapeRendering: "geometricPrecision",
+						textRendering: "geometricPrecision",
+						// imageRendering: "optimizeQuality",
+						fillRule: "evenodd",
+						clipRule: "evenodd",
+					}}
+				>
+					<title>Resume</title>
+					<rect
+						width="6.827"
+						height="6.827"
+						rx=".853"
+						ry=".853"
+						style={{ fill: "#00838f" }}
+					/>
 					<path
-						fill="#0077B5"
-						d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+						d="M1.573.853h2.502v1.072c0 .117.096.213.214.213H5.36v3.729a.107.107 0 0 1-.107.106h-3.68a.107.107 0 0 1-.106-.106V.96c0-.059.047-.107.106-.107zm.455 3.28h2.77v.16h-2.77v-.16zm0-.55h2.77v.16h-2.77v-.16zm0 1.098h2.77v.16h-2.77v-.16zm.588-1.951a.326.326 0 0 1-.32-.305.578.578 0 0 1-.002-.08c0-.122.038-.2.1-.25a.355.355 0 0 1 .221-.07l.007.001c.08.002.157.02.216.068.062.05.1.13.1.25a2.463 2.463 0 0 1-.003.08.335.335 0 0 1-.096.217.335.335 0 0 1-.22.089h-.003zm-.333-.148a.482.482 0 0 0-.169.163.568.568 0 0 0-.086.303v.009c0 .037.014.071.035.096a.124.124 0 0 0 .094.045h.918c.037 0 .07-.017.094-.045a.148.148 0 0 0 .035-.096v-.009a.568.568 0 0 0-.085-.3.483.483 0 0 0-.168-.165.354.354 0 0 1-.072.1.377.377 0 0 1-.596-.101zm2.006-.55a.107.107 0 0 1-.107-.107V.96a.107.107 0 0 1 .183-.076l.964.964a.107.107 0 0 1-.076.182H4.29zm-.877 1.04h1.374v.16H3.412v-.16zm.495-.38.144.046a.322.322 0 0 1-.11.179.313.313 0 0 1-.195.058.316.316 0 0 1-.24-.1.382.382 0 0 1-.094-.273c0-.122.031-.217.094-.284a.324.324 0 0 1 .25-.101c.089 0 .162.026.218.08a.288.288 0 0 1 .075.134l-.147.035a.154.154 0 0 0-.054-.09.155.155 0 0 0-.1-.033.167.167 0 0 0-.133.059c-.034.039-.05.102-.05.19 0 .092.016.158.05.197.033.04.076.06.13.06.039 0 .073-.013.101-.038a.219.219 0 0 0 .061-.118zm.458.27-.262-.733h.16l.186.543.18-.543h.157l-.263.733h-.158z"
+						style={{ fill: "#fffffe" }}
 					/>
 				</svg>
 			</Link>
